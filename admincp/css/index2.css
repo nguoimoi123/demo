@@ -1,0 +1,51 @@
+div.container {
+    width: auto;
+    border: 1px solid gray;
+}
+#body{
+    background-color: black;
+}
+#warraper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:0px auto;
+}
+#header {
+    background-color:blue;
+    clear:left;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+#menungang{
+    background-color:red;
+    color: white;
+    text-align: center;
+    padding: 20px ;
+}
+#main-conten {
+    display:flex ;
+    background-color: #f9f9f9;
+}
+#menudoc {
+    background-color:green;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 230px 100px;
+}
+#conten {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    padding: 230px 568px;
+}
+#footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 50px;
+    color:black;
+    text-align: center;
+}

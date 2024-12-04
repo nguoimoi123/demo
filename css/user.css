@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Aptos;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+header {
+    background-color: #fff;
+    padding: 9px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display:flex;
+    justify-content: flex-end;
+
+}
+header h1 {
+    font-size: 25px;
+}
+.sign-out-btn {
+    background-color: #0070c9;
+    color: #fff;
+    display: flex 70px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 700px;
+}
+
+.sign-out-btn:hover {
+    background-color: #0056b3;
+}
+
+main {
+    background-color: #fff;
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+
+.account-info {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    padding: 80px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.account-details h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.account-details p {
+    color: #888;
+}
+
+.account-nav {
+    padding: 0;
+}
+
+.account-nav ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding-left: 0;
+}
+
+.account-nav ul li {
+    margin-bottom: 10px;
+}
+
+.account-nav ul li a {
+    text-decoration: none;
+    color: #0070c9;
+}
+
+.account-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.personal-info h1  {
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.personal-info a  {
+    margin-top: 10px;
+    
+}
+.info-box {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.info-box div {
+    background-color: #f4f4f4;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.info-box h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.info-box p {
+    font-size: 20px;
+    color: #777;
+}

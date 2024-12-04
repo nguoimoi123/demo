@@ -1,0 +1,27 @@
+ul.list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+ul.list li{
+    float:left;
+    margin:5px;
+    
+}
+ul.list li a :hover{
+    text-decoration: underline; 
+}
+.clear{
+    clear:both;
+}
+h3.title{
+    text-align: center;
+    font-size: 40px;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
